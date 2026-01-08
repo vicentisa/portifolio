@@ -1,0 +1,22 @@
+.rodapé {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: var(--secundaria);
+    padding: 1.5em;
+}
+
+    .rodapé__texto {
+        font-size: 12px;
+        text-align: center;
+        font-family: var(--fonte-texto);
+        color: var(--branco);
+        font-weight: 400;
+    } 
+
+@media screen and (min-width:1024px) {
+    .rodapé__texto {
+        font-size: 14px;
+    }
+
+}

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólio</title>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="cabeçalho">
+
+        <nav class="cabeçalho__nav"> 
+            <ul class="nav__lista">
+                <li class="nav__lista__item">
+                    <a href="#sobre" class="nav__lista__item__link">Sobre mim</a>
+                </li>
+                <li class="nav__lista__item">
+                    <a href="#projetos" class="nav__lista__item__link">Projetos</a>
+                </li>
+                <li class="nav__lista__item">
+                    <a href="#tecnologias" class="nav__lista__item__link">Tecnologias</a>
+                </li>
+                <li class="nav__lista__item">
+                    <a href="#contato" class="nav__lista__item__link">Contato</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main class="conteudo">
+        
+        <!-- SOBRE MIM -->
+        <section class="sobre" id="sobre">
+            <div class="sobre__conteúdo">
+                <div class="sobre__conteúdo__titulos">
+                <h3 class="subtitulo">DESENVOLVEDOR</h3>
+                <h2 class="titulo__seção">Vicenti Sá</h2>
+                </div>
+                <p class="sobre__parágrafo">Olá! Eu sou um programador iniciante, atualmente aprendendo sobre o mundo da programação front-end com tecnologias como HMTL, CSS, Java Script e UI.</p>
+                <a class="sobre__botão" href="assets/curriculo_linkedin.pdf" download>BAIXAR CURRICULO</a>
+            </div>
+            <img src="/assets/euformado.jpg" alt="Vicenti Sá em sua formatura vestindo uma toga" class="sobre__imagem">
+        </section>
+
+        <!-- PROJETOS -->
+        <section class="projetos" id="projetos">
+
+            <h2 class="titulo__seção">Projetos</h2>
+
+            <ul class="projetos__lista">
+
+                <li class="projetos__container">
+                    <a href="https://github.com/vicentisa/numero-secreto" class="projetos__container__link" target="_blank">
+                    <img src="assets/jogo_numero_secreto.png" alt="Jogo do Número Secreto" class="container__imagem">
+                    <div class="container__conteúdo">
+                    <h4 class="container__titulo">Jogo do Número Secreto</h4>
+                    <p class="container__texto">Projeto reproduzido com Alura, para aprendizado e desenvolvimento de lógica de programação com Java Script.</p>
+                    </div>
+                    </a>
+                </li>
+
+                <li class="projetos__container">
+                    <a href="https://github.com/vicentisa/optimus_tech" class="projetos__container__link" target="_blank">
+                    <img src="assets/optimus_tech.png" alt="Site Optimus Tech" class="container__imagem">
+                    <div class="container__conteúdo">
+                    <h4 class="container__titulo">Optimus Tech</h4>
+                    <p class="container__texto">Visual de um site de uma empresa fictícia de tecnologia. Reproduzido juntamente ao desafio #7DaysOfCode para aprendizado de HTML e CSS.</p>
+                    </div>
+                    </a>
+                </li>
+
+                <li class="projetos__container">
+                    <a href="https://github.com/vicentisa/teleconsultas" class="projetos__container__link" target="_blank">
+                    <img src="assets/teleconsultas.png" alt="Site de Teleconsultas" class="container__imagem">
+                    <div class="container__conteúdo">
+                    <h4 class="container__titulo">Teleconsultas</h4>
+                    <p class="container__texto">Visual de uma plataforma de agendamento de consultas de um hospital fícticio. Reproduzida juntamente ao desafio #7DaysOfCode para aprendizado de HTML, CSS e responsividade.</p>
+                    </div>
+                    </a>    
+                </li>
+
+            </ul>
+
+        </section>
+
+        <!-- TECNOLOGIAS -->
+        <section class="tecnologias" id="tecnologias">
+
+            <h2 class="titulo__seção">Tecnologias</h2>
+
+            <ul class="tecnologias__lista">
+                <li class="tecnologias__caixa">
+                    <a href="https://www.w3schools.com/html/" target="_blank">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg">
+                    </a>
+                </li>
+                <li class="tecnologias__caixa">
+                    <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg">
+                    </a>
+                </li>
+                <li class="tecnologias__caixa">
+                    <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg">
+                    </a>
+                </li>
+                <li class="tecnologias__caixa">
+                    <a href="https://git-scm.com/" target="_blank">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg">
+                    </a>
+                </li>
+                <li class="tecnologias__caixa">
+                    <a href="https://github.com/" target="_blank">    
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg">
+                    </a>
+                </li>
+            </ul>
+
+        </section>
+
+
+        <!-- CONTATO -->
+        <section class="contato" id="contato">
+
+            <h2 class="contato__titulo">Entre em contato</h2>
+
+            <p class="contato__texto">
+                Preencha o formulário para me contatar e enviar um email para <span>vicentir123@gmail.com</span>
+            </p>
+
+            <form class="contato__form">
+                <label>
+                <span class="titulo__form">Nome</span>
+                <input type="text" placeholder="Nick James">
+                </label>
+
+                <label>
+                <span class="titulo__form">Email</span>
+                <input type="email" placeholder="contact@email.com">
+                </label>
+
+                <label>
+                <span class="titulo__form">Contato</span>
+                <input type="tel" placeholder="+(DDD) 99999-9999">
+                </label>
+
+                <label>
+                <span class="titulo__form">Empresa</span>
+                <input type="text" placeholder="Empresa">
+                </label>
+
+                <label>
+                <span class="titulo__form">Mensagem</span>
+                <textarea placeholder="Escreva sua mensagem aqui..."></textarea>
+                </label>
+
+                <button type="submit" class="contato__botao">
+                Enviar
+                </button>
+            </form>
+        </section>
+
+    </main>
+    
+
+    <!-- FOOTER -->
+    <footer class="rodapé">
+        <p class="rodapé__texto">Todos os direitos reservados © Vicenti Sá</p>
+    </footer>
+
+</body>
+</html>
