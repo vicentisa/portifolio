@@ -128,39 +128,69 @@
             <h2 class="contato__titulo">Entre em contato</h2>
 
             <p class="contato__texto">
-                Preencha o formulário para me contatar e enviar um email para <span>vicentir123@gmail.com</span>
+                Preencha o formulário para me contatar e enviar uma mensagem para <span>vicentir123@gmail.com</span>
             </p>
 
-            <form class="contato__form">
+            <!-- FORMULÁRIO -->
+            <form class="contato__form" action="https://formspree.io/f/xlggroed" method="POST">
                 <label>
                 <span class="titulo__form">Nome</span>
-                <input type="text" placeholder="Nick James">
+                <input type="text" placeholder="Nick James" name="nome" required>
                 </label>
 
                 <label>
                 <span class="titulo__form">Email</span>
-                <input type="email" placeholder="contact@email.com">
+                <input type="email" placeholder="contact@email.com" name="email" required>
                 </label>
 
                 <label>
                 <span class="titulo__form">Contato</span>
-                <input type="tel" placeholder="+(DDD) 99999-9999">
+                <input type="tel" placeholder="+(DDD) 99999-9999" name="telefone" required>
                 </label>
 
                 <label>
                 <span class="titulo__form">Empresa</span>
-                <input type="text" placeholder="Empresa">
+                <input type="text" placeholder="Empresa" name="empresa" required>
                 </label>
 
                 <label>
                 <span class="titulo__form">Mensagem</span>
-                <textarea placeholder="Escreva sua mensagem aqui..."></textarea>
+                <textarea placeholder="Escreva sua mensagem aqui..." name="mensagem" required></textarea>
                 </label>
 
                 <button type="submit" class="contato__botao">
                 Enviar
                 </button>
             </form>
+
+            <!-- ÍCONES -->
+            <div class="form__ícones">
+                <a href="https://www.linkedin.com/in/vicentisa/" target="_blank">
+                    <svg class="ícone__linkedin"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    width="32"
+                    height="32"
+                    fill="white"
+                    aria-label="LinkedIn"
+                    >
+                    <path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.11 1 2.5 1 4.98 2.12 4.98 3.5zM0 8h5v16H0V8zm7.5 0h4.8v2.2h.1c.7-1.3 2.4-2.7 5-2.7 5.3 0 6.3 3.5 6.3 8v8.5h-5V16c0-1.9 0-4.3-2.6-4.3-2.6 0-3 2-3 4.2v8.6h-5V8z"/>
+                    </svg>
+                </a>
+                <a href="https://www.instagram.com/vicentiss/" target="_blank">
+                    <svg class="ícone__instagram"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    width="32"
+                    height="32"
+                    fill="white"
+                    aria-label="Instagram"
+                    >
+                    <path d="M7 2C4.24 2 2 4.24 2 7v10c0 2.76 2.24 5 5 5h10c2.76 0 5-2.24 5-5V7c0-2.76-2.24-5-5-5H7zm10 2c1.65 0 3 1.35 3 3v10c0 1.65-1.35 3-3 3H7c-1.65 0-3-1.35-3-3V7c0-1.65 1.35-3 3-3h10zm-5 3a5 5 0 100 10 5 5 0 000-10zm0 2a3 3 0 110 6 3 3 0 010-6zm5.25-.75a1.25 1.25 0 11-2.5 0 1.25 1.25 0 012.5 0z"/>
+                    </svg>
+                </a>
+            </div>
+
         </section>
 
     </main>

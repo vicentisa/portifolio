@@ -91,6 +91,26 @@ textarea:focus {
   border-color: var(--bege);
 }
 
+.form__ícones {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+    .ícone__linkedin {
+        width: 32px;
+        height: 32px;
+        margin-top: 1em;
+    }
+
+    .ícone__instagram {
+        width: 35px;
+        height: 35px;
+        margin-top: 1.2em;
+    }
+
 @media screen and (min-width: 1024px) {
     .contato__titulo {
         font-size: 2.5rem;
